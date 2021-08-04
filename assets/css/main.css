@@ -237,6 +237,11 @@ html{
     max-height: 100vh;
 }
 
+.photo__item:hover{
+    top: -4px;
+    transition: all linear 0.5s;
+}
+
 .photo__item--left{
     max-height: 50vh;
     margin-bottom: 10px;
