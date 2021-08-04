@@ -232,6 +232,8 @@ html{
 }
 
 .photo__item{
+    position: relative;
+    display:block;
     width: 100%;
     object-fit: cover;
     max-height: 100vh;
