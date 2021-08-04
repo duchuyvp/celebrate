@@ -171,7 +171,7 @@ html{
 }
 
 .couple__content{
-    
+    margin-bottom: 16px;
 }
 .couple__content--heading{
     text-align: center;
@@ -182,7 +182,6 @@ html{
     text-align: justify;
     font-size: 1.4rem;
     line-height: 1.6;
-    margin-bottom: 30px;
     font-weight: 400;
     margin: 0 8px;
 }
