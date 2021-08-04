@@ -1,0 +1,27 @@
+@media (max-width:740px){
+    .app{
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .slider__text{
+        top: 70%;
+        font-size: 1.6rem;
+    }
+
+    .couple__user--img{
+        height: 33vw;
+    }
+
+    .photo__item--left{
+        width:100%;
+        object-fit: cover;
+    }
+
+    .photo__item--bottom{
+        margin-bottom: 10px;
+    }
+
+    .content-section__footer{
+        text-align: center;
+    }
+}
