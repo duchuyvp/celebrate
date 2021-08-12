@@ -113,9 +113,8 @@ html{
 .check__box{
     width:100%;
     position: absolute;
-    display: flex;
     top: 90%;
-    left: 30%;
+    left: 3%;
     padding-left: 0;
     margin: 0;
 }
