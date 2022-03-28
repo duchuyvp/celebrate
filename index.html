@@ -9,10 +9,14 @@
 	<!-- <title> -->
 	<script type="text/javascript">
 		var date1 = new Date("06/08/2021");
+		var datePause = new Date("27/03/2022"):
 		var date2 = new Date();
-		var Difference_In_Time = date2.getTime() - date1.getTime();
+		var Difference_In_Time = datePause.getTime() - date1.getTime();
 		var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
-		document.write("<title>" + Math.floor(Difference_In_Days) + " days </title>");
+		var Difference_In_Time_From_Pause = date2.getTime() - datePause.getTime();
+		var Difference_In_Days_From_Pause = Difference_In_Time_From_Pause / (1000 * 3600 * 24);
+		
+		document.write("<title>" + Math.floor(Difference_In_Days) + " days " + Math.floor(Difference_In_Days_From_Pause)+ " days " </title>");
 	</script>
 	<!-- </title> -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
